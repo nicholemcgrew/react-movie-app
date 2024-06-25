@@ -11,6 +11,7 @@ import SearchIcon from "../../assets/icons/icon-search.svg";
 import { MovieDataType } from "../../assets/data";
 import MovieTrendList from "../../components/movie-list/movieTrendList";
 import MovieList from "../../components/movie-list";
+import { MovieContext } from "../../context/movie-context";
 
 const Home = () => {
   const [search, setSearch] = useState("");
